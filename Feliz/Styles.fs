@@ -1653,6 +1653,20 @@ type style =
     /// ```
     static member inline gridRow(start: IGridSpan, end': IGridSpan) =
         Interop.mkStyle "gridRow" ((unbox<string>start) + " / " + (unbox<string>end'))
+    // TODO documentation
+    static member inline gridAutoFlow(auto: IGridAutoFlow) =
+        Interop.mkStyle "gridAutoFlow" (unbox<string> auto) 
+    static member inline gridAutoRows(auto: IGridAutoRow) =
+        Interop.mkStyle "gridAutoRows" (unbox<string> auto) 
+    static member inline gridAutoRows(value: ICssUnit) =
+        Interop.mkStyle "gridAutoRows" (unbox<string> value)
+    // TODO more overload combinations for as long as they make sense
+    static member inline gridAutoColumns(auto: IGridAutoRow) =
+        Interop.mkStyle "gridAutoColumns" (unbox<string> auto) 
+    static member inline gridAutoColumns(value: ICssUnit) =
+        Interop.mkStyle "gridAutoColumns" (unbox<string> value)
+    // TODO more overload combinations for as long as they make sense
+        
     /// Sets the named grid area the item is placed in
     ///
     /// **CSS**
