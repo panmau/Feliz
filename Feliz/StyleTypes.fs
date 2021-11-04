@@ -47,9 +47,3 @@ type ITransformProperty = interface end
 type IGridSpan = interface end
 
 type IGridTemplateItem = interface end
-
-// TODO fix me
-type IGridAutoFlow = interface end
-
-// TODO rename me as it's the same for Row/Column
-type IGridAutoRow = interface end
