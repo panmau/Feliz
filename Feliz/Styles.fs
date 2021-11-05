@@ -4688,7 +4688,7 @@ module style =
     /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow
     [<Erase>]
     type gridAutoFlow =
-        /// Default value. Items are placed by filling each row in turn, adding new rows as necessary.
+        /// Default value. Items are placed by filling each row in turn, adding new rows as necessary
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow#values
         ///
@@ -4701,7 +4701,7 @@ module style =
         /// style.gridAutoFlow.row
         /// ```
         static member inline row = Interop.mkStyle "gridAutoFlow" "row"
-        /// Items are placed by filling each column in turn, adding new columns as necessary.
+        /// Items are placed by filling each column in turn, adding new columns as necessary
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow#values
         ///
@@ -4775,7 +4775,7 @@ module style =
         /// style.gridAutoColumns.auto
         /// ```
         static member inline auto = Interop.mkStyle "gridAutoColumns" "auto"
-        /// Represents the largest minimal content contribution of the grid items occupying the grid track.
+        /// Represents the largest minimal content contribution of the grid items occupying the grid track
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns#values
         ///
@@ -4788,7 +4788,7 @@ module style =
         /// style.gridAutoColumns.minContent
         /// ```
         static member inline minContent = Interop.mkStyle "gridAutoColumns" "min-content"
-        /// Represents the largest maximal content contribution of the grid items occupying the grid track.
+        /// Represents the largest maximal content contribution of the grid items occupying the grid track
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns#values
         ///
@@ -4820,7 +4820,7 @@ module style =
         /// style.gridAutoRows.auto
         /// ```
         static member inline auto = Interop.mkStyle "gridAutoRows" "auto"
-        /// Represents the largest minimal content contribution of the grid items occupying the grid track.
+        /// Represents the largest minimal content contribution of the grid items occupying the grid track
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows#values
         ///
@@ -4833,7 +4833,7 @@ module style =
         /// style.gridAutoRows.minContent
         /// ```
         static member inline minContent = Interop.mkStyle "gridAutoRows" "min-content"
-        /// Represents the largest maximal content contribution of the grid items occupying the grid track.
+        /// Represents the largest maximal content contribution of the grid items occupying the grid track
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows#values
         ///
