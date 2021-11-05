@@ -4762,7 +4762,7 @@ module style =
     /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns
     [<Erase>]
     type gridAutoColumns =
-        /// TODO add documentation for this one as I don't get it
+        /// Default value. The size of the columns is determined by the size of the container
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns#values
         ///
@@ -4807,8 +4807,7 @@ module style =
     /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows
     [<Erase>]
     type gridAutoRows =
-        /// TODO add documentation for this one. I don't get it
-        /// Default value. ??? ...
+        /// Default value. The size of the columns is determined by the size of the container
         ///
         /// Documentation: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows#values
         ///
